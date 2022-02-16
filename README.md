@@ -13,5 +13,5 @@ int main()
 
 <!--- Lazy to use css just for centering it, don't bash me ;-; --->
 <p align="center">
-  <img src="img/im_not_a_bad_slime.gif" width="650" height="366">
+  <img src="img/im_not_a_bad_slime.gif">
 </p>
