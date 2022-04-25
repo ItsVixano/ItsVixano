@@ -1,6 +1,9 @@
-## Welcome to my git :D ##
+//
+// Copyright (C) 2022 Giovanni Ricca
+//
+// SPDX-License-Identifier: Apache-2.0
+//
 
-```c
 #include <stdio.h>
 #include <unistd.h>
 #include "include/colours.h"
@@ -39,9 +42,3 @@ int main() {
     checker(); // ToDo: Rerun it if it doesn't get a proper value
     return 0;
 }
-```
-
-<!--- Lazy to use css just for centering it, don't bash me ;-; --->
-<p align="center">
-  <img src="img/im_not_a_bad_slime.gif">
-</p>
