@@ -2,7 +2,6 @@
 
 ```c
 #include <stdio.h>
-#include <unistd.h>
 #include "include/colours.h"
 
 int checker() {
