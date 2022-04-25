@@ -30,7 +30,7 @@ int checker() {
         default:
             yellow();
             printf("\nPlease try typing your answer again");
-            white();
+            //white();
             break;
     }
 }
