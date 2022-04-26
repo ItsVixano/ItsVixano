@@ -5,7 +5,7 @@
 //
 
 #define reddit "u/ItsVixano"
-#define telegram "t.me/GiovanniRN5"
+#define telegram "@GiovanniRN5"
+#define twitter "@itsvixanoX"
 #define steam "ItsVixano"
 #define xda "Its_Vixano"
-#define twitter "itsvixanoX"

@@ -7,17 +7,16 @@
 
 static int socials() {
     white();
-    printf("\nHere is a list of some socials i currently use :D\n");
+    printf("\nHere is a list of some socials i currently use :D\n\n");
     red();
-    printf("Reddit = %s\n", reddit);
+    printf("Reddit = %s\n", reddit); // u/ItsVixano
     cyan();
-    printf("Telegram = %s\n", telegram);
+    printf("Telegram = %s\n", telegram); // @GiovanniRN5
+    printf("Twitter = %s\n", twitter); // @itsvixanoX
     gray();
-    printf("Steam = %s\n", steam);
+    printf("Steam = %s\n", steam); // ItsVixano
     yellow();
-    printf("XDA = %s\n", xda);
-    cyan();
-    printf("Twitter = %s\n", twitter);
+    printf("XDA = %s\n", xda); // Its_Vixano
 }
 
 static int checker() {
