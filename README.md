@@ -3,12 +3,28 @@
 ```c
 #include <stdio.h>
 #include "include/colours.h"
+#include "include/socials.h"
 
-int checker() {
+static int socials() {
+    white();
+    printf("\nHere is a list of some socials i currently use :D\n");
+    red();
+    printf("Reddit = %s\n", reddit);
+    cyan();
+    printf("Telegram = %s\n", telegram);
+    gray();
+    printf("Steam = %s\n", steam);
+    yellow();
+    printf("XDA = %s\n", xda);
+    cyan();
+    printf("Twitter = %s\n", twitter);
+}
+
+static int checker() {
     char value;
 
     printf("\n\nDo you enjoy my work right :) (y/n) ?? ");
-    scanf("%c", &value); // ToDo: Find something to replace scanf
+    scanf("%c", &value);
 
     switch (value) {
         case 'y':
@@ -17,6 +33,7 @@ int checker() {
             printf("\nIf you want to donate a few bucks, do it with this link");
             printf("\n<--- paypal.me/vishverypoor --->");
             printf("\n(I don't support other ways of donating sadly)\n");
+            socials();
             break;
         case 'n':
             red();
@@ -25,8 +42,7 @@ int checker() {
             break;
         default:
             yellow();
-            printf("\nPlease try typing your answer again");
-            //white();
+            printf("\nPlease try running again the program and type your answer again\n");
             break;
     }
 }
@@ -35,7 +51,7 @@ int main() {
     white();
     printf("Nice to meet you :D"); // I hope
     printf("\nYou can checkout my contributions on my github profile and orgs");
-    checker(); // ToDo: Rerun it if it doesn't get a proper value
+    checker();
     return 0;
 }
 ```
