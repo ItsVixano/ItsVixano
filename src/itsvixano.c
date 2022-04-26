@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include "include/colours.h"
 
-int checker() {
+static int checker() {
     char value;
 
     printf("\n\nDo you enjoy my work right :) (y/n) ?? ");
@@ -29,7 +29,6 @@ int checker() {
         default:
             yellow();
             printf("\nPlease try typing your answer again");
-            //white();
             break;
     }
 }
