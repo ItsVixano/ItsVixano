@@ -17,6 +17,7 @@ static int socials() {
     printf("Steam = %s\n", steam); // ItsVixano
     yellow();
     printf("XDA = %s\n", xda); // Its_Vixano
+    return 0;
 }
 
 static int checker() {
@@ -42,8 +43,10 @@ static int checker() {
         default:
             yellow();
             printf("\nPlease try running again the program and type your answer again\n");
+            return -1;
             break;
     }
+    return 0;
 }
 
 int main() {
