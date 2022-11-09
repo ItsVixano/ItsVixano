@@ -13,3 +13,4 @@
 - <a href="mailto:giovanniricca@proton.me">E-Mail</a>
 - <a href="https://t.me/GiovanniRN5">Telegram</a>
 - <a href="http://matrix.to/#/@itsvixano:matrix.org">Matrix</a>
+- <a href="https://universeodon.com/@ItsVixano">Mastodon</a>
